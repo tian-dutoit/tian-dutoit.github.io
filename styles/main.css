@@ -1,3 +1,23 @@
 div{
   border: 1px solid blue;
+  background-color: grey;
 }
+
+.title{
+  background-color: blue;
+  color: white;
+}
+
+.img-responsive{
+  max-width: 100%;
+  position:relative;
+}
+
+.content{
+  padding: 2em;
+}
+/*.button-responsive{
+  max-width: 25%;
+  padding: .2em .2em;
+  position:relative;
+}*/
