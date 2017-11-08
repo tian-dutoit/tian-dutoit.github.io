@@ -1,10 +1,21 @@
-div{
+div {
   border: 1px solid blue;
   background-color: grey;
 }
 
-.title{
-  background-color: blue;
+a{
+border: 1px solid red;  
+}
+
+#title {
+  background-color: #05055d;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+}
+
+#footer {
+  background-color: navy;
   color: white;
 }
 
@@ -16,6 +27,18 @@ div{
 .content{
   padding: 2em;
 }
+
+
+/* Larger than tablet */
+@media (min-width: 750px) {
+  body {
+    font-size: 2em; /* currently ems cause chrome bug misinterpreting rems on body element */
+    line-height: 1.6;
+    font-weight: 400;
+       }
+}
+
+
 /*.button-responsive{
   max-width: 25%;
   padding: .2em .2em;
