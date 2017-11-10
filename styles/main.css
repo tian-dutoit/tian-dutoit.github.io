@@ -1,6 +1,8 @@
 div {
   border: 1px solid blue;
   background-color: white;
+  /*font-family: 'Barlow', sans-serif;*/
+  font-family: 'Lato', sans-serif;
 }
 
 a {
@@ -9,6 +11,16 @@ color: white;
 text-decoration: none;
 
 }
+
+h2 {
+
+}
+
+h4 {
+  font-weight: bold;
+
+}
+
 
 #title {
   background-color: #24292e;
@@ -19,7 +31,7 @@ text-decoration: none;
 }
 
 #header {
-  background-color: #464d54;
+  background-color: #383e44;
   color: white;
   text-align: center;
 
@@ -29,6 +41,16 @@ text-decoration: none;
   background-color: #24292e;
   color: white;
   text-align: center;
+}
+
+.list {
+  color: black;
+}
+
+.links {
+  margin-top: 1em;
+  position: sticky;
+  top: 5em;
 }
 
 .img-responsive{
