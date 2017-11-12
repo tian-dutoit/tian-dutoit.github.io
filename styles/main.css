@@ -36,7 +36,6 @@ h5 {
   background-color: #383e44;
   color: white;
   text-align: center;
-
 }
 
 #footer {
@@ -44,6 +43,12 @@ h5 {
   color: white;
   text-align: center;
 }
+
+#project {
+  text-align:center;
+  padding: 5em;
+}
+
 .container {
   border: 1px solid black;
 }
@@ -70,6 +75,7 @@ h5 {
 .content {
   padding: 4.5em;
 }
+
 
 
 /* Larger than tablet */
